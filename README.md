@@ -17,7 +17,6 @@ daily-task-reminder/
 - Each line: `Title | YYYY-MM-DD`
 - Filters tasks scheduled for today's date
 - Clean console output
-- Optional: simulate sending an email/message reminder (via console log)
 
 ### Sample `tasks.txt`
 
@@ -43,7 +42,7 @@ node reminder.js --date 2025-07-27                # Override date
 
 1. Buy groceries
 ---
-ending reminder email/message with today's tasks...
+sending reminder email/message with today's tasks...
 ```
 
 ### Notes
