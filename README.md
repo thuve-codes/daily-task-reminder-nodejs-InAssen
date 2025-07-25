@@ -22,9 +22,10 @@ daily-task-reminder/
 
 ```yaml
 Buy groceries | 2025-07-25
-Finish Almas Equities task | 2025-07-27
-Call mom | 2025-07-25
 Pay internet bill | 2025-08-01
+.
+.
+.
 ```
 
 ### Usage
