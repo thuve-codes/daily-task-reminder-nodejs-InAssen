@@ -1,0 +1,19 @@
+{
+  "name": "daily-task-reminder",
+  "version": "1.0.0",
+  "description": "A Node.js command-line script that reads tasks from a text file (tasks.txt) and displays only the tasks scheduled for today’s date in a clean format. Optionally simulates sending reminders via console output.",
+  "main": "reminder.js",
+  "scripts": {
+    "start": "cross-env FORCE_COLOR=3 node reminder.js --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cross-env": "^7.0.3",
+    "node-cron": "^4.2.1"
+  }
+}
